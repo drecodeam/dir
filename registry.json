@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2024-08-01T10:30:00Z",
+    "totalAgents": 8
+  },
+  "agents": [
+    {
+      "name": "code-reviewer",
+      "file": "agents/code-reviewer.md",
+      "category": "development",
+      "downloads": 1250,
+      "rating": 4.8,
+      "lastUpdated": "2024-07-30",
+      "featured": true
+    },
+    {
+      "name": "frontend-developer",
+      "file": "agents/frontend-developer.md",
+      "category": "development",
+      "downloads": 980,
+      "rating": 4.7,
+      "lastUpdated": "2024-07-28",
+      "featured": true
+    },
+    {
+      "name": "backend-developer",
+      "file": "agents/backend-developer.md",
+      "category": "development",
+      "downloads": 875,
+      "rating": 4.6,
+      "lastUpdated": "2024-07-25",
+      "featured": false
+    },
+    {
+      "name": "security-auditor",
+      "file": "agents/security-auditor.md",
+      "category": "security",
+      "downloads": 650,
+      "rating": 4.9,
+      "lastUpdated": "2024-07-20",
+      "featured": true
+    },
+    {
+      "name": "qa-engineer",
+      "file": "agents/qa-engineer.md",
+      "category": "development",
+      "downloads": 720,
+      "rating": 4.5,
+      "lastUpdated": "2024-07-22",
+      "featured": false
+    },
+    {
+      "name": "devops-specialist",
+      "file": "agents/devops-specialist.md",
+      "category": "operations",
+      "downloads": 580,
+      "rating": 4.4,
+      "lastUpdated": "2024-07-18",
+      "featured": false
+    },
+    {
+      "name": "technical-writer",
+      "file": "agents/technical-writer.md",
+      "category": "content",
+      "downloads": 450,
+      "rating": 4.6,
+      "lastUpdated": "2024-07-15",
+      "featured": false
+    },
+    {
+      "name": "performance-analyst",
+      "file": "agents/performance-analyst.md",
+      "category": "development",
+      "downloads": 390,
+      "rating": 4.3,
+      "lastUpdated": "2024-07-12",
+      "featured": false
+    }
+  ],
+  "categories": [
+    {
+      "id": "development",
+      "name": "Development",
+      "color": "#3b82f6",
+      "description": "Agents for coding, architecture, and development tasks"
+    },
+    {
+      "id": "security",
+      "name": "Security",
+      "color": "#ef4444",
+      "description": "Security auditing and vulnerability assessment agents"
+    },
+    {
+      "id": "operations",
+      "name": "DevOps",
+      "color": "#10b981",
+      "description": "Deployment, infrastructure, and operations agents"
+    },
+    {
+      "id": "content",
+      "name": "Content",
+      "color": "#f59e0b",
+      "description": "Documentation, writing, and content creation agents"
+    }
+  ]
+}
